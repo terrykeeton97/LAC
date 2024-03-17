@@ -13,7 +13,7 @@ Easily log in using the League Client Update API. No more having to type your us
 
 ## 🚀 Getting Started
 1. Open the solution file (.sln).
-2. Build the project in Realese (x86) or Release (x64).
+2. Build the project in Realese (x86) or Release (x64).  
 
 3. ## 📋 Features
 ```
