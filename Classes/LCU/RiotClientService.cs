@@ -102,7 +102,7 @@ namespace LAC.Classes.LCU
         public void Disconnect()
         {
             if (_httpClient != null)
-                _httpClient = null;      
+                _httpClient = null;
         }
 
         private string[] GetRiotClientPortAndAuthKey()

@@ -1,5 +1,4 @@
-﻿using LAC.Interface.Forms;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace LAC.Classes.League_Client
@@ -7,7 +6,7 @@ namespace LAC.Classes.League_Client
     internal class ClientController
     {
         public static Process StartClient()
-        {            
+        {
             var clientExePath = PathFinder.ClientInfo(PathFinder.ClientInfoType.LeagueClientExe);
             using (var process = new Process())
             {
